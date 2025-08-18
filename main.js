@@ -1,4 +1,4 @@
-
+ler numeroAleatorio = Math.floor(Math.random() *100) + 1;
 const palpites = document.querySelector('.palpites');
-const ultimoResultado = document.querySelector('.ultimoResultado');
-const baixoOuAlto = document
+const ultimoResultado = document.qurerySelector('.ultimoResultado');
+const baixoOuAlto = document.querySelector('.baixoOuAlto');
