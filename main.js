@@ -48,13 +48,12 @@ function finalizarJogo() {
     document.body.appendChild(botaoReiniciar);
     botaoReiniciar.textContent = 'Reiniciar Jogo';
     botaoReiniciar.classList.add('botaoReiniciar');
-    document.body.appendChild(botaoReiniciar);
     botaoReiniciar.addEventListener('click', reiniciarJogo);
 }
 
 function reiniciarJogo() {
     contagemPalpites = 1;
-    const paragrafosReiniciar = document.querySelectorAll('.paragrafosResultado p');
+    const paragrafosReiniciar = document.querySelectorAll('.paragrafosResultados p');
     for (const paragrafoReiniciar of paragrafosReiniciar) {
         paragrafoReiniciar.textContent = "";
     }
