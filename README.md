@@ -1,3 +1,3 @@
-##jogo-do-numero 2B 2025
+#Jogo do numero 
 
 ## instroções do jogo
