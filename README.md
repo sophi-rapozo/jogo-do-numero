@@ -1,3 +1,3 @@
-# Jogo do numero 2B
+# Jogo do número 2B
 
-## instroções do jogo
+## instruções sobre o jogo
